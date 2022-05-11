@@ -12,61 +12,64 @@ a {
 
 .container {
 	position: relative;
-	width: 1920px;
-	height: 1270px;
-}
-
-.container .background_img {
-	position: absolute;
+	width: 100%;
+	height: 100vh;
+	
+	background-image: url("../images/lion.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .container .zoo-logo {
 	position: absolute;
-	width: 200px;
-	height: 100px;
-	bottom: 70px;
-	left: 50px;
+	width: 160px;
+	height: 80px;
+	
+	bottom: 30px;
 }
+
 
 .container .login-wrap {
 	position: absolute;
-	width: 676px;
-	height: 1074px;
+	width: 600px;
+	height: 740px;
 	background-color: rgba(0, 0, 0, 0.5);
-	right: 100px;
-	bottom: 100px;
+	right: 50px;
+	top: 50px;
 	border-radius: 10px;
 }
 
 .container .login-wrap .login-contents {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 .container .login-wrap .login-contents .zoo-logo2 {
-	width: 200px;
-	height: 100px;
+	width: 160px;
+	height: 80px;
 	
-	margin-top: 70px;
+	margin-top: 30px;
 	margin-left: -30px;
+	font-size: 0;
 }
 
 .container .login-wrap .login-contents .title {
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 600;
-	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
 .container .login-wrap .login-contents .info-txt {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 300;
 	float: left;
 }
 
 .container .login-wrap .login-contents .email-form {
 	overflow: hidden;
-	margin-bottom: 40px;
+	margin-bottom: 26px;
 	
 	border-bottom: 1px solid white;
 	transition: 0.2s;
@@ -99,7 +102,7 @@ a {
 }
 
 .container .login-wrap .login-contents .email-form .fa-user {
-	font-size: 30px;
+	font-size: 24px;
 	transition: 0.2s;
 }
 
@@ -128,24 +131,24 @@ a {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 }
 
 .container .login-wrap .login-contents .lock-form .fa-lock {
-	font-size: 34px;
+	font-size: 26px;
 	transition: 0.2s;
 }
 
 .container .login-wrap .login-contents .remember-form {
 	position: relative;
-	height: 20px;
-	margin-top: 24px;
+	height: 16px;
+	margin-top: 14px;
 }
 
 .container .login-wrap .login-contents .remember-form #chk {
 	position: absolute;
-	width: 20px;
-	height: 20px;
+	width: 16px;
+	height: 16px;
 }
 
 .container .login-wrap .login-contents .remember-form #chk {
@@ -156,8 +159,9 @@ a {
 .container .login-wrap .login-contents .remember-form label {
 	position: absolute;
 	margin-left: 40px;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 200;
+	vertical-align: middle;
 }
 
 .container .login-wrap .login-contents .remember-form label:hover {
@@ -166,13 +170,13 @@ a {
 
 
 .container .login-wrap .login-contents .login-btn {
-	margin-top: 65px;
-	height: 66px;
+	margin-top: 55px;
+	height: 50px;
 	background-color: #47753b;
 	border-radius: 33px;
 	text-align: center;
-	line-height: 66px;
-	font-size: 36px;
+	line-height: 50px;
+	font-size: 30px;
 	font-weight: 300;
 	
 	transition: all 0.5s;
@@ -184,9 +188,9 @@ a {
 }
 
 .container .login-wrap .login-contents .find {
-	margin-top: 20px;
+	margin-top: 12px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 200;
 }
 
@@ -196,7 +200,7 @@ a {
 
 .container .login-wrap .login-contents .sign-form {
 	overflow: hidden;
-	margin-top: 105px;
+	margin-top: 60px;
 	height: 100px;
 }
 .container .login-wrap .login-contents .sign-form .sign-txt {

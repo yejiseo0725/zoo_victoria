@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="728200a6-71e9-4c78-bd1c-60a752441eb8" name="변경" comment="" />
+    <list default="true" id="728200a6-71e9-4c78-bd1c-60a752441eb8" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginpage/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/loginpage/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginpage/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginpage/html/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,7 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/4-002/Desktop/서예지코딩/academy_prac/0504",
+    "last_opened_file_path": "C:/Users/4-002/Desktop/zoo_victoria",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -38,6 +45,7 @@
       <workItem from="1651820358705" duration="3712000" />
       <workItem from="1652057676563" duration="27000" />
       <workItem from="1652227843978" duration="1758000" />
+      <workItem from="1652230394563" duration="2033000" />
     </task>
     <servers />
   </component>
