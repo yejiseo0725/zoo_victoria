@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	width: 1920px;
+	height: 1270px;
+}
+
+.container .background_img {
+	position: absolute;
+}
+
+.container .zoo-logo {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	bottom: 70px;
+	left: 50px;
+}
+
+.container .login-wrap {
+	position: absolute;
+	width: 676px;
+	height: 1074px;
+	background-color: rgba(0, 0, 0, 0.5);
+	right: 100px;
+	bottom: 100px;
+	border-radius: 10px;
+}
+
+.container .login-wrap .login-contents {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.container .login-wrap .login-contents .zoo-logo2 {
+	width: 200px;
+	height: 100px;
+	
+	margin-top: 70px;
+	margin-left: -30px;
+}
+
+.container .login-wrap .login-contents .title {
+	font-size: 70px;
+	font-weight: 600;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.container .login-wrap .login-contents .info-txt {
+	font-size: 24px;
+	font-weight: 300;
+	float: left;
+}
+
+.container .login-wrap .login-contents .email-form {
+	overflow: hidden;
+	margin-bottom: 40px;
+	
+	border-bottom: 1px solid white;
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .email-form:hover {
+	border-color: #fc8914;
+	transform:scale(1.1);
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .email-form:hover .fa-user {
+	color: #fc8914;
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .email-form input {
+	background-color:transparent;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	
+	margin-bottom: 10px;
+}
+
+.container .login-wrap .login-contents i {
+	float: left;
+	margin-right: 50px;
+}
+
+.container .login-wrap .login-contents .email-form .fa-user {
+	font-size: 30px;
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .lock-form {
+	overflow: hidden;
+	
+	border-bottom: 1px solid white;
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .lock-form:hover {
+	border-color: #fc8914;
+	transform:scale(1.1);
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .lock-form:hover .fa-lock {
+	color: #fc8914;
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .lock-form input {
+	background-color:transparent;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	
+	margin-bottom: 10px;
+}
+
+.container .login-wrap .login-contents .lock-form .fa-lock {
+	font-size: 34px;
+	transition: 0.2s;
+}
+
+.container .login-wrap .login-contents .remember-form {
+	position: relative;
+	height: 20px;
+	margin-top: 24px;
+}
+
+.container .login-wrap .login-contents .remember-form #chk {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+
+.container .login-wrap .login-contents .remember-form #chk {
+	accent-color: #47753b;
+	/* checkbox 색상 변경하기 */
+}
+
+.container .login-wrap .login-contents .remember-form label {
+	position: absolute;
+	margin-left: 40px;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.container .login-wrap .login-contents .remember-form label:hover {
+	cursor: pointer;
+}
+
+
+.container .login-wrap .login-contents .login-btn {
+	margin-top: 65px;
+	height: 66px;
+	background-color: #47753b;
+	border-radius: 33px;
+	text-align: center;
+	line-height: 66px;
+	font-size: 36px;
+	font-weight: 300;
+	
+	transition: all 0.5s;
+}
+
+.container .login-wrap .login-contents .login-btn:hover {
+	background-color: #ed7f13;
+	transition: 0.5s;
+}
+
+.container .login-wrap .login-contents .find {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.container .login-wrap .login-contents .find:hover {
+	text-decoration: underline;
+}
+
+.container .login-wrap .login-contents .sign-form {
+	overflow: hidden;
+	margin-top: 105px;
+	height: 100px;
+}
+.container .login-wrap .login-contents .sign-form .sign-txt {
+	float: left;
+	line-height: 75px;
+	font-size: 26px;
+	font-weight: 200;
+}
+.container .login-wrap .login-contents .sign-form .icons {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.container .login-wrap .login-contents .sign-form .icons img {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	transition: 0.2s
+}
+
+.container .login-wrap .login-contents .sign-form .icons .naver:hover {
+	transform: scale(1.3);
+	transition: 0.2s
+}
+
+.container .login-wrap .login-contents .sign-form .icons .google:hover {
+	transform: scale(1.3);
+	transition: 0.2s
+}
+
+.container .login-wrap .login-contents .sign-form .icons .face:hover {
+	transform: scale(1.3);
+	transition: 0.2s
+}
+

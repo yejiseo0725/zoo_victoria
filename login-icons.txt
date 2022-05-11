@@ -1,0 +1,11 @@
+user
+
+<i class="fa fa-user-circle" aria-hidden="true"></i>
+
+lock
+
+<i class="fa fa-lock" aria-hidden="true"></i>
+
+mail
+
+<i class="fa fa-envelope-o" aria-hidden="true"></i>
