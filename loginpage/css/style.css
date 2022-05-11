@@ -18,7 +18,7 @@ a {
 	background-image: url("../images/lion.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 100%;
 }
 
 .container .zoo-logo {
@@ -26,7 +26,8 @@ a {
 	width: 160px;
 	height: 80px;
 	
-	bottom: 30px;
+	top: 730px;
+	left: 50px;
 }
 
 
